@@ -61,7 +61,7 @@ function Projects(){
     return (
         <>
         <div className={'bg-blue-400 h-full'}>
-        <div className= {'grid grid-rows-2 grid-flow-col gap-4 p-4'}>
+        <div className= {'flex flex-col gap-y-4 md:grid md:grid-rows-2 md:grid-flow-col md:gap-4 p-4'}>
            {projects.map((item) => (
                 
                 <Card
