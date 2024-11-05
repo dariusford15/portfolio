@@ -73,12 +73,14 @@ li{display: list-item;}
   margin-top: 5px;
   color: white;
   font-family: 'Century Gothic', sans-serif;
+  border-radius: 25%;
 }
 .box-img{
   border-radius: 50%;
   width: 200px;
   height: 250px;
   margin: 0 auto;
+  border: 1px solid white;
 }
 .heroImg{
   animation-name:floating;

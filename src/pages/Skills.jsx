@@ -15,6 +15,7 @@ function Skills(){
                 <a href="https://www.w3schools.com/js/default.asp"><img src="images/javascript-icon.png" alt="JavaScript Logo"/></a>
                 <a href="https://reactjs.org"><img src="images/react-icon.png" alt="React Logo"/></a>
                 <a href="https://github.com"><img src="images/github-icon.png" alt="GitHub Logo"/></a>
+                <a href="https://www.python.org"><img className={'w-52 h-52'}src="images/python.png" alt="Python Logo"/></a>
             </div>
         </div>
         </>
