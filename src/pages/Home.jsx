@@ -1,4 +1,5 @@
 import React from 'react';
+import profile_img from '../../src/assets/linkedInPic.jpg'
 
 function Home() {
     return (
@@ -10,11 +11,10 @@ function Home() {
                         <p>I'm a web developer looking to broaden my skills and to get real-world experience.</p>
                         <a href="/projects" className={'py-2 px-6 mx-1 bg-blue-600 rounded hover:bg-green-200 my-8'}>Past Work</a>
                 </div>
-                <img className={'border-2 border-white flex w-1/4 rounded-full heroImg'} src={"/assets/linkedInPic.jpg"} alt="Darius's face" />
-        
-    
+                <img className={'border-2 border-white flex w-1/4 rounded-full heroImg'} src={profile_img} alt="Darius's face" />
+
             </div>
-            
+
 
         </>
     );
