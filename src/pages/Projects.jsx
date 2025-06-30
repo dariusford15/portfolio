@@ -6,7 +6,8 @@ import Card from '../components/Card';
 function Projects(){
 
     const projects = [
-        {
+        { 
+            id: 1,
             project: "Project 1",
             title: "Basic Business or Personal Website",
             details: [
@@ -17,6 +18,7 @@ function Projects(){
             link: "https://github.com/dariusford15/project1"
         },
         {   
+            id: 2,
             project: "Project 2",
             title: "Website with Search Engine",
             details: [
@@ -27,6 +29,7 @@ function Projects(){
             link: "https://github.com/dariusford15/project2"
         },
         {
+            id: 3,
             project: "Project 3",
             title: "Task Management Web App",
             details: [
@@ -37,6 +40,7 @@ function Projects(){
             link: "https://github.com/dariusford15/Project-3"
         },
         {
+            id: 4,
             project: "Project 4",
             title: "Trading Application Project",
             details: [
@@ -47,6 +51,7 @@ function Projects(){
             link: "https://github.com/dariusford15/stock-app-web"
         },
         {
+            id: 5,
             project: "Project 5",
             title: "Question App",
             details: [
@@ -65,7 +70,7 @@ function Projects(){
            {projects.map((item) => (
                 
                 <Card
-                    key={item.project}
+                    key={item.id}
                     title={item.title}
                     url={item.link}
                     description={item.details.map((description,index) => (

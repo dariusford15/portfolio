@@ -15,7 +15,7 @@ function About() {
     return (
         <>
             <div className={"flex justify-center items-center flex-col bg-blue-400"}>
-                <h1 className="mt-5 text-3xl text-white text-center underline">Education</h1>
+                <h1 className="mt-5 text-3xl text-white text-center text-border">Education</h1>
                 {Education.map((item) =>
                     <div>
                         <h1 className={'pt-5 text-xl text-center '}>{item.college}</h1>
@@ -26,7 +26,7 @@ function About() {
                         </ul>
                     </div>
                 )}
-                <h1 className="pt-5 pb-5 text-3xl text-white text-center underline">About Me</h1>
+                <h1 className="pt-5 pb-5 text-3xl text-white text-center text-border">About Me</h1>
                 <div class="box">
                     <img src={portfolio_img} alt="" class="box-img" width="200px" height="300px" />
                         <h5>Web Developer - Web Designer</h5>

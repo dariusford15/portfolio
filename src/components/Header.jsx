@@ -8,7 +8,7 @@ export default function Header() {
             title: "Home",
             path: "/home"
         },
-        {   
+        {
             title: "Projects",
             path: "/projects"
 
@@ -32,9 +32,9 @@ export default function Header() {
         {navbar.map((item)=> {
             return(
             <div>
-                
+
                 <NavLink to={`${item.path}`} activeClassName={"active"} >{item.title}</NavLink>
-        
+
             </div>
             )
         })}
