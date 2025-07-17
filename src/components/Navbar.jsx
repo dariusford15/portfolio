@@ -34,12 +34,12 @@ function Navbar() {
       </div>)}
 
       <div className={'lg-flex justify-between items-center'}>
-        <ul className={'md:flex hidden inline-block'}>
-          <li onClick={closeMenu} className={'block no-underline text-white text-xl p-4'}><NavLink to="/" activeClassName='active'>Home</NavLink></li>
-          <li onClick={closeMenu}className={'block no-underline text-white text-xl p-4'}><NavLink to="/about" activeClassName='active'>About</NavLink></li>
-          <li onClick={closeMenu}className={'block no-underline text-white text-xl p-4'}><NavLink to="/projects" activeClassName='active'>Projects</NavLink></li>
-          <li onClick={closeMenu}className={'block no-underline text-white text-xl p-4'}><NavLink to="/skills" activeClassName='active'>Skills</NavLink></li>
-          <li onClick={closeMenu}className={'block no-underline text-white text-xl p-4'}><NavLink to="/contact" activeClassName='active'>Contact</NavLink></li>
+        <ul className={'md:flex hidden inline-block minWidth'}>
+          <li onClick={closeMenu} className={'block no-underline text-white text-2xl p-4'}><NavLink to="/" activeClassName='active'>Home</NavLink></li>
+          <li onClick={closeMenu}className={'block no-underline text-white text-2xl p-4 '}><NavLink to="/about" activeClassName='active'>About</NavLink></li>
+          <li onClick={closeMenu}className={'block no-underline text-white text-2xl p-4'}><NavLink to="/projects" activeClassName='active'>Projects</NavLink></li>
+          <li onClick={closeMenu}className={'block no-underline text-white text-2xl p-4 '}><NavLink to="/skills" activeClassName='active'>Skills</NavLink></li>
+          <li onClick={closeMenu}className={'block no-underline text-white text-2xl p-4 '}><NavLink to="/contact" activeClassName='active'>Contact</NavLink></li>
       </ul>
       </div>
     </nav>
